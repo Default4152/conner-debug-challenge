@@ -1,0 +1,71 @@
+* {
+	font-family: "Lato", serif;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+#container {
+	width: 800px;
+	margin: 0 auto;
+	background: #fff;
+}
+
+#header {
+	border-bottom: 2px solid #999;
+	height: 80px;
+	margin: 0 auto;
+	width: 100%;
+}
+
+#header h1 {
+	font-size: 300%;
+	letter-spacing: 3px;
+	text-align: right;
+	padding: 5px;
+}
+#header h2 {
+	color: #7f8c8d;
+	font-size: 200%;
+	letter-spacing: 3px;
+}
+
+#nav {
+	margin-bottom: 77px;
+	margin-top: -20px;
+}
+
+#nav #aboutNav {
+	font-size: 200%;
+	float: left;
+	margin-left: 5px;
+}
+
+#nav #goalsNav {
+	font-size: 200%;
+	float: right;
+	margin-right: 5px;
+}
+
+#mainContent {
+	margin-top: 50px;
+	height: 500px;
+	width: 100%;
+	border-top: 2px solid #999;
+}
+
+#career {
+	text-align: center;
+	border: 2px solid black;
+	padding: 5px;
+}
+
+#gif {
+	margin-left: 230px;
+}
+
+p {
+	font-size: 150%;
+}
