@@ -1,7 +1,7 @@
 $(document).ready(function() {
-    $("#about, #goals, #gif").hide();
+    $("#gif").hide();
     $("#aboutLink, #goalsLink").bind("click", function() {
-        $("#about, #goals").hide();
+        $("#about").hide();
         if ($(this).attr("id") == "aboutLink") {
             $("#about").show();
         } else {
